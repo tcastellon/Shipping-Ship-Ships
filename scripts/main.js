@@ -1,8 +1,8 @@
-import { dockList } from "./Docks"
-import { haulerList } from "./HaulerShips"
+import { dockList } from "./docks"
+import { haulerList } from "./haulerShips"
 import { shippingShipsList } from "./shippingShips"
 
-const mainContainer = document.getElementById("container")
+const mainContainer = document.querySelector("#container")
 
 const shippingShipShipsHTML = `
 <h1>Shipping Ship Ships</h1>
