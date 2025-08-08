@@ -1,4 +1,4 @@
-//Create database the contains data on cargo ships, hauler ships, and docks 
+//Create database the contains data on shipping ships, hauler ships, and docks 
 const database = {
     docks: [
         { id: 1, location: "Shanghai, China", volume: "43.5" },
