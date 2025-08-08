@@ -8,9 +8,9 @@ export const shippingShipsList = () => {
     
     let shippingShipsHTML = "<ul>"
 
-    for (const shippingShip of shippingShips) {
+    for (const ship of shippingShips) {
         //Convert each shippingShip object to an <li> and append to the shippingShipsHTML string
-        shippingShipsHTMl += `<li>${shippingShip.name}</li>`        
+        shippingShipsHTMl += `<li>${ship.name}</li>`        
     }
 
     shippingShipsHTML += "</ul>"
