@@ -44,8 +44,8 @@ document.addEventListener(
                 }
 
             }
-            window.alert(`${itemClicked.dataset.name} is being hauled by ${haulingShip}`)
             // Show an alert to the user with this format...
+            window.alert(`${itemClicked.dataset.name} is being hauled by ${haulingShip}.`)
             // Palais Royal is being hauled by Seawise Giant
         }
     }
