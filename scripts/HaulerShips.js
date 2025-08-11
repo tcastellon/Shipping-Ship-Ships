@@ -11,9 +11,9 @@ export const haulerList = () => {
     for (const hauler of haulers) {
         //Convert each hauler object to an <li> and append to the haulersHTML string
         haulersHTML += `<li data-id="${hauler.id}" 
-        data-type="hauler">
-        ${hauler.name}
-        </li>`
+                            data-type="hauler">
+                            ${hauler.name}
+                        </li>`
     }
     
     haulersHTML += "</ul>"
@@ -44,9 +44,9 @@ document.addEventListener(
                 // Increase the counter by 1
                     shipCounter++
                 }
-
-                window.alert(`This hauler is carrying ${shipCounter} shipping ships.`)
+                
             }
+            window.alert(`This hauler is carrying ${shipCounter} shipping ships.`)
         }
     }
 )
